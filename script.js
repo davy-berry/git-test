@@ -16,16 +16,18 @@ incrementBtn.addEventListener("click", () => {
 // JS TASK 1: Add event listener for decrementBtn to decrease count (don't go below 0!)
 
 decrementBtn.addEventListener('click', () => {
-
-  if(count = 0){
+  
+  if(count <= 0){
     display.innerText = 0
   } else {
     count--;
     display.innerText = count;
   }
 })
+
 // JS TASK 2: Add event listener for resetBtn to set count back to 0
 resetBtn.addEventListener('click', () => {
+  
   count = 0
   display.innerText = 0
 })
