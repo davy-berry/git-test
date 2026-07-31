@@ -4,6 +4,7 @@ const incrementBtn = document.getElementById("increment-btn");
 const decrementBtn = document.getElementById("decrement-btn");
 const resetBtn = document.getElementById("reset-btn");
 
+let count = 0
 
 incrementBtn.addEventListener("click", () => {
   count++;
