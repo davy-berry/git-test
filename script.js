@@ -24,3 +24,7 @@ decrementBtn.addEventListener('click', () => {
   }
 })
 // JS TASK 2: Add event listener for resetBtn to set count back to 0
+resetBtn.addEventListener('click', () => {
+  count = 0
+  display.innerText = 0
+})
